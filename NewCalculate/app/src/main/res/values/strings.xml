@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NewCalculate</string>
+    <string name="nilai_1">Nilai 1</string>
+    <string name="nilai_2">Nilai 2</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="divide">/</string>
+    <string name="multiply">x</string>
+    <string name="result">Hasil</string>
+    <string name="susi_calculate">SUSI CALCULATE</string>
+    <string name="Nilai_1">Nilai 1</string>
+    <string name="Nilai_2">Nilai 2</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="Divide">/</string>
+    <string name="Multiply">x</string>
+    <string name="Hitung">Hitung</string>
+    <string name="Hasil">Hasil</string>
+    <string name="Susi_Calculate">SUSI CALCULATE</string>
+    <string name="clear">Clear</string>
+</resources>

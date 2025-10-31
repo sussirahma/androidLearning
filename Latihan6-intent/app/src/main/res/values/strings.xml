@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Latihan6</string>
+    <string name="move_activity">Pindah Activity</string>
+    <string name="this_is_move_activity">Ini move activity</string>
+</resources>

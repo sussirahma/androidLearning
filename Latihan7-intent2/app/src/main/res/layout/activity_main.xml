@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/material_dynamic_primary100"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <!-- Kolom Username -->
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_welcome"
+        android:layout_marginHorizontal="32dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:padding="12dp"/>
+
+    <!-- Kolom Password -->
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_username"
+        android:layout_marginHorizontal="32dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="12dp"/>
+
+    <!-- Tombol Masuk -->
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:layout_margin="32dp"
+        android:text="Masuk"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:elevation="6dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
