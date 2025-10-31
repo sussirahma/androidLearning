@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Latihan4</string>
+    <string name="nilai_1">Nilai 1</string>
+    <string name="nilai_2">Nilai 2</string>
+    <string name="tambah">+</string>
+    <string name="kurang">-</string>
+    <string name="bagi">/</string>
+    <string name="kali">x</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">Hasil</string>
+    <string name="susi_calculate">SUSI CALCULATE</string>
+</resources>
